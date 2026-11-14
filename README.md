@@ -1,5 +1,7 @@
 # uz-open-data
 
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/wonmortech/uz-open-data/badge)](https://scorecard.dev/viewer/?uri=github.com/wonmortech/uz-open-data)
+
 Small, open datasets about Uzbekistan, with the exact query or source each one was built from.
 
 | Folder | What | Licence |
