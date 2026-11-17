@@ -1,0 +1,20 @@
+{
+  "name": "uz-open-data",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Tooling for the uz-open-data explorer demo (the datasets themselves need no build).",
+  "license": "MIT",
+  "scripts": {
+    "demo:build": "node tools/build-demo.mjs",
+    "demo": "node tools/build-demo.mjs && node tools/serve-demo.mjs",
+    "test:demo": "playwright test -c playwright.demo.config.mjs",
+    "site:screenshots": "node tools/site-screenshots.mjs"
+  },
+  "devDependencies": {
+    "@fontsource-variable/hanken-grotesk": "5.3.0",
+    "@fontsource-variable/jetbrains-mono": "5.3.0",
+    "@fontsource-variable/onest": "5.3.1",
+    "@fontsource-variable/source-serif-4": "5.3.1",
+    "@playwright/test": "1.65.0"
+  }
+}
